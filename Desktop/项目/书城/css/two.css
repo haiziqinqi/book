@@ -1,6 +1,6 @@
 /*公共样式*/
 .limit{
-    width: 56%;
+    width: 980px;
     margin: 0 auto;
 }
 .left{
@@ -149,12 +149,93 @@
 .recommend{
     margin-top: 40px;
 }
+.tuijian h3{
+    font-size: 18px;
+    font-family: '微软雅黑';
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 20px;
+}
+.tuijian a{
 
+}
+.book ul{
+    width: 100%;
+    font-size: 0;
+}
+.book ul li{
+    width: 285px;
+    height: 160px;
+    padding: 20px;
+    border: 1px solid #000000;
+    display: inline-block;
+    margin: 0;
+}
+.book .book_one{
+    border-right: 0;
+}
 
+/*最近更新区域*/
+.New{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.New_book ul{
+    width: 688px;
+    border: 1px solid #000000;
+    padding:10px;
+
+}
+.New ul li{
+    border-bottom: 1px solid #000000;
+    overflow: hidden;
+    height: 30px;
+    line-height:30px;
+}
+.New span{
+    display: inline-block;
+}
+.New_book .l1{
+    width: 75px;
+}
+.New_book .l2{
+    width: 165px;
+}
+.New_book .l3{
+    width: 300px;
+}
+.New_book .l4{
+    width: 75px;
+    text-align: right;
+}
+.New_book .l5{
+    width: 45px;
+    text-align: right;
+
+}
+.New_books ul{
+    width: 238px;
+    border: 1px solid #000000;
+    padding:10px;
+
+}
+
+.New_books .r1{
+    width: 60px;
+}
+.New_books .r2{
+    width: 100px;
+}
+.New_books .r3{
+    width: 62px;
+    text-align: right;
+
+}
 
 
 .foot{
     border-top: 2px solid #000000;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 20px;
+    margin-top: 20px;
 }
